@@ -2,19 +2,9 @@
 apflu="apflu"
 bbq="BoingBoingQ"
 weak="mhz123"
+zz="jiushazaizhi"
 
 home={0.5,0.5}
-kulp={30.5,65.5}
-oild={-203.5,141.5}
-pipe={44.5,65.5}
-refi={-90.5,64.5}
-delve={251.5,1795.5}
-vosi={-345.5,899.5}
-crox={-13.5,880.5}
-train={-39.5,177.5}
-branch={191.5,1435.5}
-
-moon={43.5,-59.5}
 
 last_position={}
 
