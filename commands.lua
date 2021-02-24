@@ -1,10 +1,11 @@
-/c
+/sc
 apflu="apflu"
 bbq="BoingBoingQ"
 weak="mhz123"
 zz="jiushazaizhi"
 
 home={0.5,0.5}
+craft={-4.5,-169.5}
 
 last_position={}
 
@@ -33,6 +34,7 @@ end
 
 function give(item, amount)
     game.player.insert{name=item, count=amount}
+    game.print({"", game.player.name, " ", "使用不光彩的手段获得了", "", amount,"", "个", " ", "[img=item.", "", item, "]", game.item_prototypes[item].localised_name, "", "！"})
 end
 
 function evo()
