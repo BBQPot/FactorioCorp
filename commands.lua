@@ -6,6 +6,7 @@ zz="jiushazaizhi"
 
 home={0.5,0.5}
 craft={-4.5,-169.5}
+power ={139,524}
 
 last_position={}
 
@@ -28,17 +29,9 @@ function back()
     end
 end
 
-function tp_space()
-    game.player.teleport({68,-7},"Nauvis Orbit")
-end
-
 function give(item, amount)
     game.player.insert{name=item, count=amount}
     game.print({"", game.player.name, " ", "使用不光彩的手段获得了", "", amount,"", "个", " ", "[img=item.", "", item, "]", game.item_prototypes[item].localised_name, "", "！"})
-end
-
-function evo()
-    game.print("虫子进化系数: "..game.forces["enemy"].evolution_factor)
 end
 
 function getpos()
