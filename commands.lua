@@ -7,6 +7,7 @@ zz="jiushazaizhi"
 home={0.5,0.5}
 craft={-4.5,-169.5}
 power ={139,524}
+base ={-131,-328}
 
 last_position={}
 
