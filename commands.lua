@@ -8,6 +8,7 @@ home={0.5,0.5}
 craft={-4.5,-169.5}
 power ={139,524}
 base ={-131,-328}
+drill ={-339,183}
 
 last_position={}
 
