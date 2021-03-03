@@ -33,12 +33,20 @@ end
 
 function give(item, amount)
     game.player.insert{name=item, count=amount}
-    game.print({"", game.player.name, " ", "使用不光彩的手段获得了", "", amount,"", "个", " ", "[img=item.", "", item, "]", game.item_prototypes[item].localised_name, "", "！"})
+    game.print({"", game.player.name, " ", "使用不光彩的手段获得了", "", amount,"", "个", " ", geticon(item), "", getname(item), "", "！"})
 end
 
 function getpos()
     local position = game.player.position
     game.print(game.player.name .. "位于[gps=" .. position.x .. "," .. position.y .. "," .. game.player.surface.name .. "]")
+end
+
+function geticon(item_id)
+    return "[img=item." .. item_id .. "]"
+end
+
+function getname(item_id)
+    return game.item_prototypes[item_id].localised_name
 end
 
 function findcorpse()
