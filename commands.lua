@@ -1,14 +1,12 @@
 /sc
 apflu="apflu"
 bbq="BoingBoingQ"
+du="ChaosticMoon"
+xiaowu="qipika"
 weak="mhz123"
 zz="jiushazaizhi"
 
 home={0.5,0.5}
-craft={-4.5,-169.5}
-power ={139,524}
-base ={-131,-328}
-drill ={-339,183}
 
 last_position={}
 
@@ -61,7 +59,14 @@ end
 function speedup(factor)
     for _,player in pairs(game.players) do
         player.force.manual_crafting_speed_modifier=factor
-        game.print("将" .. game.player.name .. "的手搓制造速度设置成了" .. factor .. "倍！")
+        game.print(game.player.name .. "将手搓制造速度设置成了" .. factor .. "倍！")
+    end
+end
+
+function reach(distance)
+    for _,player in pairs(game.players) do
+        player.force.character_build_distance_bonus = distance
+        game.print("将" .. game.player.name .. "的触及距离设置成了" .. distance .. "倍！")
     end
 end
 
