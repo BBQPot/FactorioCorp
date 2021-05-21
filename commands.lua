@@ -7,6 +7,8 @@ weak="mhz123"
 zz="jiushazaizhi"
 
 home={0.5,0.5}
+stone={-36.5,-36.5}
+coppper={48.5,-126.5}
 
 last_position={}
 
@@ -66,7 +68,7 @@ end
 function reach(distance)
     for _,player in pairs(game.players) do
         player.force.character_build_distance_bonus = distance
-        game.print("将" .. game.player.name .. "的触及距离设置成了" .. distance .. "倍！")
+        game.print(game.player.name .. "将触及距离设置成了" .. distance .. "倍！")
     end
 end
 
