@@ -5,6 +5,8 @@ du="ChaosticMoon"
 xiaowu="qipika"
 weak="mhz123"
 zz="jiushazaizhi"
+LD="WinterVII"
+
 
 home={0.5,0.5}
 stone={-36.5,-36.5}
