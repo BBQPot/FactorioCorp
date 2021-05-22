@@ -11,7 +11,7 @@ LD="winterVII"
 home={0.5,0.5}
 rock={-109.5,89.5}
 coppper={48.5,-126.5}
-gas={-891.5,-86.5}
+gas={-23.5,140.5}
 
 last_position={}
 
