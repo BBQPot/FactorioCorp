@@ -5,7 +5,7 @@ du="ChaosticMoon"
 xiaowu="qipika"
 weak="mhz123"
 zz="jiushazaizhi"
-LD="WinterVII"
+LD="winterVII"
 
 
 home={0.5,0.5}
