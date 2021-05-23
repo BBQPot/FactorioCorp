@@ -93,4 +93,9 @@ function tree()
     end
 end
 
+function clearinv()
+    game.player.character.clear_items_inside()
+    game.print(game.player.name .. "清空了自己的物品栏。")
+end
+
 game.print("初始化完成！")
