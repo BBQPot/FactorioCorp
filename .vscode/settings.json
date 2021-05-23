@@ -1,0 +1,8 @@
+{
+    "Lua.diagnostics.globals": [
+        "game"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global"
+    ]
+}

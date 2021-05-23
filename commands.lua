@@ -13,6 +13,7 @@ rock={-109.5,89.5}
 coppper={48.5,-126.5}
 gas={-23.5,140.5}
 ball={555.5,176.5}
+getStuff={89.5,-9.5}
 
 last_position={}
 
