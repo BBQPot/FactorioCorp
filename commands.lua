@@ -10,6 +10,7 @@ LD="winterVII"
 
 home={-43.5,-63.5}
 oil={342.5,-213.5}
+coal={139,-17}
 
 last_position={}
 
